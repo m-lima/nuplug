@@ -32,9 +32,9 @@ nuplug load [
 | Field  | Description                                                                                          | Type    | Conflicts |
 |--------|------------------------------------------------------------------------------------------------------|---------|-----------|
 | path   | Path to local plug-ing                                                                               | string  | repo      |
-| repo   | Path to the plug-in repository. Will prepend 'https://github.com/' if path is just "user/repo"       | string  | path      |
+| repo   | Path to the plug-in repository. Will prepend 'https://github.com/' if path is just `user/repo`       | string  | path      |
 | branch | Branch to checkout from the repository                                                               | string  |           |
-| loader | Loader script for the plug-in relative to the checked out path. Defaults to "<name>.nu" or "load.nu" | string  |           |
+| loader | Loader script for the plug-in relative to the checked out path. Defaults to `<name>.nu` or `load.nu` | string  |           |
 | run    | Closure to run in the checkd out path after download                                                 | closure |           |
 
 # Commands
